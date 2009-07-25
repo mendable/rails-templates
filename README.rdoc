@@ -1,0 +1,34 @@
+= Rails Application Templates
+
+* Author: Jason Lambert
+* Homepage: http://www.mendable.com
+* GitHub: http://www.github.com/mendable
+
+My collection of Rails app templates to quickly customise a new Rails app to the way I like it.
+
+== Syntax
+  rails [appname] -m "http://github.com/mendable/rails-templates/blob/master/[template].rb?raw=true"
+
+
+== Usage Example
+  rails superapp -m "http://github.com/mendable/rails-templates/blob/master/standard.rb?raw=true"
+
+
+== Standard.rb
+* MySQL as Default
+* Gems: MySQL, Shoulda, FactoryGirl, Mislav-Will_paginate
+* Plugins (prompted): paperclip, attachment_fu, correct-format
+* Layout Template + CSS
+* Site controller
+* Ready for Git!
+
+
+== Patches
+If you branch and enhance this plugin in anyway, please do contact me to let me know, either on GitHub (http://www.github.com/mendable) or through my website (http://www.mendable.com).
+
+
+== Licence
+
+Copyright (c) 2009 Jason Lambert (http://www.mendable.com).
+
+Code released under the MIT license.
