@@ -240,7 +240,8 @@ end
 END
 
 generate("controller", "site", "index")
-
+run "rm test/unit/helpers/site_helper_test.rb"
+run "rm app/helpers/site_helper.rb"
 
 file 'lib/tasks/shoulda.rake', <<-END
 begin require 'shoulda/tasks' rescue LoadError end
