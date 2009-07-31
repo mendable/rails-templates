@@ -20,6 +20,7 @@ My collection of Rails app templates to quickly customise a new Rails app to the
 * Plugins (prompted): paperclip, attachment_fu, correct-format
 * Layout Template + CSS
 * Site controller
+* Rcov rake tasks
 * Ready for Git!
 
 
