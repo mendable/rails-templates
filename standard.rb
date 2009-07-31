@@ -26,6 +26,7 @@ config/database.yml
 public/javascripts/all.js
 coverage
 coverage.data
+*.swp
 }
 
  
