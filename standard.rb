@@ -225,8 +225,11 @@ file 'app/views/layouts/application.html.erb', <<-END
       </div>
 
       <div id="content">
-        <p style="color: green"><%= flash[:notice] %></p>
-        <p style="color: red"><%= flash[:error] %></p>
+        <% [{:flash => :notice, :color => :green}, {:flash => :error, :color => :red}].each do |possible_flash| %>
+          <% if flash[possible_flash[:flash]] %>
+            <p style="color: <%= possible_flash[:color] %>"><%= flash[possible_flash[:flash]] %></p>
+          <% end %>
+        <% end %>
         <%= yield %>
         <div id="footer">&nbsp;</div>
       </div>
