@@ -45,7 +45,6 @@ git :add => "."
 
 # Vendor/plugins.
 plugin 'paperclip', :git => 'git://github.com/thoughtbot/paperclip.git', :submodule => true if yes?("Use PaperClip in this project? (y/n)")
-plugin 'attachment_fu', :git => 'git://github.com/technoweenie/attachment_fu.git', :submodule => true if yes?("Use Attachment_fu in this project? (y/n)")
 plugin 'correct-format', :git => 'git://github.com/mendable/correct-format.git', :submodule => true if yes?("Use correct-format in this project? (y/n)")
 
 
